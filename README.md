@@ -1,2 +1,2 @@
 # E-store
-project ecommerce online with Html , CSS , Bootstrap  ,  JS and  API 
+project online store with Html , CSS , Bootstrap  ,  JS and  API 
