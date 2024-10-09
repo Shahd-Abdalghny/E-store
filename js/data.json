@@ -1,0 +1,52 @@
+
+[{
+        "image": "image/WhatsApp Image 2024-04-19 at 15.18.15_0616acb2.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident doloremque odio, numquam temporibus, eius eligendi iste, soluta eaque in minus vel! Quasi voluptatem iusto quaerat ipsa, asperiores aliquid atque! lo",
+        "name":"Shahd Abdalghny",
+        "job": "Software Engineer",
+        "linkdin":"https://www.linkedin.com/in/shahd-abdalgny-8197b8292/",
+        "githup":"https://github.com/Shahd-Abdalghny"
+    },
+    {
+        "image": "image/WhatsApp Image 2024-09-23 at 00.28.12_8dc5d3e3.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident doloremque odio, numquam temporibus, eius eligendi iste, soluta eaque in minus vel! Quasi voluptatem iusto quaerat ipsa, asperiores aliquid atque! lo",
+        "name":"Rawan Bahaa",
+        "job": "Software Engineer",
+        "linkdin":"https://www.linkedin.com/in/r%C3%A4w%C3%A4n-bahaa-a12530295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "githup":"#"
+    },
+    {
+        "image": "image/ledo.jpeg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident doloremque odio, numquam temporibus, eius eligendi iste, soluta eaque in minus vel! Quasi voluptatem iusto quaerat ipsa, asperiores aliquid atque! lo",
+        "name":"khalid bahjat",
+        "job": "Software Engineer",
+        "linkdin":"#",
+        "githup":"https://github.com/KhaledBahjat"
+    },
+    {
+        "image": "image/WhatsApp Image 2024-10-06 at 00.25.56_cbdad3c6.jpg",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident doloremque odio, numquam temporibus, eius eligendi iste, soluta eaque in minus vel! Quasi voluptatem iusto quaerat ipsa, asperiores aliquid atque! lo",
+        "name":"Taha Mohammed",
+        "job": "Software Engineer",
+        "linkdin":"https://www.linkedin.com/in/taha-mohamed-fawy-736438294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "githup":"#"
+    },
+    {
+        "image": "image/images.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident doloremque odio, numquam temporibus, eius eligendi iste, soluta eaque in minus vel! Quasi voluptatem iusto quaerat ipsa, asperiores aliquid atque! lo",
+        "name":"Mohamed Abdeldime",
+        "job": "Software Engineer",
+        "linkdin":"#",
+        "githup":"#"
+    },
+    {
+        "image": "image/images.png",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium provident doloremque odio, numquam temporibus, eius eligendi iste, soluta eaque in minus vel! Quasi voluptatem iusto quaerat ipsa, asperiores aliquid atque! lo",
+        "name":"Hanaa Ahmad",
+        "job": "Software Engineer",
+        "linkdin":"#",
+        "githup":"#"
+    }
+
+]
+    

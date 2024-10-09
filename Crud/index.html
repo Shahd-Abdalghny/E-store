@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="cssabout/aboutus.css">
+    <title>Product Management</title>
+</head>
+<body>
+     <!-- Crud -->
+    <div class="container">
+        <div class="head">
+            <h1>Product Management</h1>
+        </div>
+
+        <!-- Input Fields -->
+        <div class="input-section">
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="description" placeholder="Description">
+            <div class="price">
+                <input onkeyup="getTotal()" type="number" id="price" placeholder="Price">
+                <input onkeyup="getTotal()" type="number" id="taxes" placeholder="Taxes">
+                <input onkeyup="getTotal()" type="number" id="ads" placeholder="Ads">
+                <input onkeyup="getTotal()" type="number" id="discount" placeholder="Discount">
+                <small id="total"></small>
+            </div>
+            <input type="number" id="count" placeholder="Count">
+            <input type="text" id="category" placeholder="Category">
+            <!-- Input for Product Image -->
+            <input type="file" id="image" accept="image/*">
+            <button id="submit">Create</button>
+        </div>
+
+        <!-- Output Section -->
+        <div class="output-section">
+            <input onkeyup="searchData(this.value)" type="text" id="search" placeholder="Search Products">
+            <div class="search-btn">
+                <button onclick="getSearchMood(this.id)" id="sh-by-t">Search By Title</button>
+                <button onclick="getSearchMood(this.id)" id="sh-by-ct">Search By Category</button>
+            </div>
+            </div>
+            <div id="deleteAll">
+                
+            </div>
+            <div id="dleetall"></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Image</th>
+                        <th>Description</th>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Taxes</th>
+                        <th>Ads</th>
+                        <th>Discount</th>
+                        <th>Total</th>
+                        <th>Category</th>
+                        <th>Update</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+        </div>
+        <!-- Crud -->
+
+           <!-- footer -->
+    <!-- <div class="footer">
+        <div class="containers">
+            <div class="foot-conect ">
+                <div class="box">
+                    <h2>E-store.</h2>
+                    <h5>Subscribe</h5>
+                    <p>Get 10% off your first order</p>
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn">OK</button>
+                </div>
+                <div class="box">
+                    <h5>Support</h5>
+                    <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+                    <p>exclusive@gmail.com</p>
+                    <p>+88015-88888-9999</p>
+                </div>
+                <div class="box">
+                    <h5>Account</h5>
+                    <p>My Account</p>
+                    <p>Login / Register</p>
+                    <p>Cart</p>
+                    <p>Wishlist</p>
+                    <p>Shop</p>
+                </div>
+                <div class="box">
+                    <h5>Quick Link</h5>
+                    <p>Privacy Policy</p>
+                    <p>Terms Of Use</p>
+                    <p>FAQ</p>
+                    <p>Contact</p>
+
+                </div>
+                <div class="box">
+                    <h5>Download App</h5>
+                    <p>Save $3 with App New User Only</p>
+                    <div class="contact_us">
+                        <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="containers">
+            <div class="copy">
+                <p>&copy;Copyright Rimel 2024. All right reserved</p>
+            </div>
+        </div>
+    </div> -->
+    <!-- footer -->
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+<!--  -->

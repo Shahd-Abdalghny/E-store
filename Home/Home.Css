@@ -1,0 +1,243 @@
+:root {
+  --primary: #ffffff;
+  --text1: #7d8184;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.sec_categories {
+  padding: 60px 0;
+}
+.img-top-head {
+  background: url(../image/bac.jpg);
+  position: relative;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media (width < 1000px) {
+   .img-top-head {
+      background-position: left;
+  }
+}
+.content-img {
+    font-size: 2rem;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    margin-left: 30%;
+}
+ .lifestyle {
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.sale {
+  margin-block: 0.5rem;
+  font-weight: bold;
+}
+.sale span {
+  color: crimson;
+  margin-left: 0.8rem;
+}
+.free-shipping {
+  font-size: 1.5rem;
+}
+.img-top-head button {
+  background-color: black;
+  color: white;
+  margin-top: 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  padding: 0.6rem 1.6rem;
+}
+
+.cat-title p {
+    font-size: 14px;
+    margin-left: 23px;
+    color: #db4444;
+    position: relative;
+}
+.cat-title p::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #db4444;
+    left: -20px;
+    top: 50%;
+    transform: translatey(-50%);
+
+}
+.cat-title h2 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+.categories {
+  display: flex;
+  max-height: 140px;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: auto;
+  column-gap: 20px;
+}
+.categories::-webkit-scrollbar {
+  width: 40px;
+}
+.categories::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.categories::-webkit-scrollbar-thumb {
+  background-color: #db4444;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+.categories .Card {
+  margin: auto;
+  padding: 40px;
+  min-width: 250px;
+  height: 100px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.categories .Card:hover {
+  background-color: #db4444;
+}
+.categories .Card:hover a {
+  color: white;
+}
+.categories .Card a {
+  text-decoration: none;
+  color: #db4444;
+  font-weight: bold;
+}
+
+.all_product {
+  padding: 60px 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .all_product .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+  }
+}
+.head_prduct {
+
+ margin-left: 30px;
+}
+.head_prduct .containers h3 {
+  color: #db4444;
+  padding: 7px 10px;
+  border-radius: 16px;
+  font-weight: bold;
+  position: relative;
+  
+}
+.head_prduct .containers h3::before{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #db4444;
+    left: -20px;
+    top: 50%;
+    transform: translatey(-50%);   
+}
+
+.card {
+  text-align: center;
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.coloum {
+  margin-bottom: 20px;
+}
+
+.card .card-img-top {
+  width: 250px;
+  margin: auto;
+  height: 250px;
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 280px;
+}
+.card .card-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+.card .card-text {
+  color: #333;
+  height: 144px;
+}
+.card .btn {
+  margin: auto;
+  background: #db4444;
+  color: white;
+  transition: 0.3s;
+}
+.card .btn:hover {
+  color: #db4444;
+  background-color: #eee;
+}
+
+.categories .category-btn {
+  background-color: #007bff !important; /* استخدام !important لإعطاء الأولوية */
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.categories .category-btn:hover {
+  background-color: #0056b3 !important; /* تأكيد الأولوية هنا */
+  transform: scale(1.05);
+}
+
+
+
+.person {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.person p {
+  margin: 0;
+  margin-left: 10px;
+}
+.person img {
+  width: 40px;
+  height: 40px;
+  margin-left: 20px;
+}
+@media (max-width:767px) {
+ .person {
+  display: none;
+ }
+
+}
